@@ -1,0 +1,447 @@
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+/*-----------------------------------------------
+                ENCABEZADO de numero y correo
+------------------------------------------------*/
+.correo{
+    background: rgba(175, 162, 162, 0.493);
+    overflow: hidden;
+    margin: 0;
+}
+
+.correo .conteiner .row .principal{
+    display: block;
+}
+
+.correo .conteiner .row .principal ul{
+    list-style: none;
+    color: black;
+    display: inline-block;
+}
+
+.correo .conteiner .row .principal ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.correo .conteiner .row .principal ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.correo .conteiner .row .principal ul a:hover{
+    text-decoration: underline;
+}
+
+/*-----------------------------------------------
+                LOGO
+------------------------------------------------*/
+
+.banner{
+    padding: 30px 0;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -40px;
+
+}
+
+.buscar input[type=search]{
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 600;
+    border-radius: 0;
+    box-shadow: none;
+    display: inline-block;
+    width: 280px;
+    height: 32px;
+    background: transparent;
+
+}
+
+.acoplar{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buscar .boton{
+    background-color: #4c74f7b9;
+    color: #000;
+    border-radius: 0;
+    font-family: "GOTHICB",sans-serif;
+    font-size: 16px;
+    padding: 5px 10px 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.buscar{
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+    position: center;
+    background: #fff;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.contenedor{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+/*-------------------------------------------
+        ENCABEZADO MENU DE NAVEGACIÓN
+---------------------------------------------*/
+
+.encabezado{
+    background: rgba(236, 236, 19, 0.856);
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.encabezado nav{
+    float: left;
+}
+
+.encabezado nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 150px;
+}
+
+.encabezado nav ul li{
+    display: inline-block;
+    margin-right: -4px;
+    transition: 0.5s;
+    margin-left: 8px;
+}
+
+.encabezado nav ul li a{
+    display: block;
+    color: black;
+    padding: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: 0.5s;
+}
+
+.contenedor-logo img{
+    padding-right: 60px;
+    padding-left: 80px;
+}
+
+.encabezado nav ul li a:hover{
+    transform: scale(2s);
+    filter: blur(0);
+    background: black;
+    color: white;
+}
+
+/*
+                REDES SOCIALES
+*/
+
+.redes{
+    position: fixed;
+    top: 30%;
+    right: 0;
+}
+
+.redes a{
+    display: block;
+    margin-bottom: 4px;
+    opacity: 0.8;
+}
+.redes a:hover{
+    opacity: 1;
+}
+
+.redes img{
+    border-radius: 50%;
+    display: block;
+
+}
+
+/*
+        PIE DE PAGINA
+*/
+footer {
+    width: 100%;
+    background-color: rgba(236, 236, 19, 0.856);
+    color: #000;
+    padding: 25px 7.5%;
+    grid-column-gap: 85px;
+  }
+
+  footer .foot-section {
+    height: 200px;
+  }
+  footer .foot-section img{
+    margin-top: 50px;
+  }
+
+  footer .foot-section span{
+    height: 12px;
+    padding: 8px 14px;
+    text-transform: inherit;
+    margin-top: -15px;
+  }
+
+  footer .foot-section span a{
+    text-align: center;
+  }
+
+  footer .foot-section span a:hover{
+    color: black;
+  }
+
+  span{
+    min-width: 10px;
+    white-space: nowrap;
+    vertical-align: middle;
+  }
+
+  footer .foot-section span a{
+   text-decoration: none;
+   color: blue;
+  }
+
+  footer .foot-section h6 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  }
+
+  footer .foot-section P{
+    line-height: -7px;
+  }
+
+ 
+/*Diseño pagina principal*/
+
+.container .row .titu{
+    color: rgba(71, 68, 68, 0.692);
+    text-decoration: underline;
+}
+
+.container .row .seccion .produ .diseño img{
+    width: 120px;
+    margin-top: 5px;
+}
+
+.container .row .seccion .produ{
+    border: 1px solid black;
+    margin-left: -20px;
+}
+
+.container .row .categori a img{
+    width: 200px;
+    margin-left: -23px;
+    margin-top: -5px;
+}
+
+.container .row .categori .cate{
+    background: #E1F627;
+    margin-left: -20px;
+    padding: 50px;
+}
+
+
+/*INICIO DE SESION*/
+
+.container .row main .ini {
+    margin-top: -150px;
+    margin-left: 200px;
+}
+
+.container .row main .ini2 {
+    margin-left: 110px;
+    margin-top: 2 0px;
+}
+
+.container .row main .ini2 span{
+    margin-left: 15px;
+}
+
+.container .row main .ini2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .row main .olvidar a{
+    color: red;
+    text-decoration: none;
+}
+
+.container .row main .olvidar a:hover{
+    text-decoration: underline;
+}
+
+/*Registro USER*/
+
+.container .row #regis{
+    margin-left: 500px;
+    color: red;
+    text-transform: uppercase;
+}
+
+/*QUIENES SOMOS*/
+
+.container .row #nosotros{
+    width: 1200px;
+}
+
+.container .row #miviva{
+    background: #1422EB;
+    color: white;
+    padding: 10px;
+    margin-left: 550px;
+    font-size: 25px;
+}
+
+.container .row .text{
+    margin-left: 300px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container .row #lis{
+    margin-left: 520px;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+.container .row .bajar{
+    margin-top: 150px;
+}
+
+/*DISEÑO DE PRODUCT_REVIEW*/
+
+.container .row #cat{
+    font-size: 29px;
+    color: red;
+    font-weight: bold;
+}
+
+.container .row span strong{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.container .rol{
+    border: 2px solid gray;
+}
+
+.relacion{
+    color: white;
+    background: #95a5a6;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*ESPECIALES*/
+
+.colorblanco
+{
+    background: white;
+}
+
+.Color_ytamaño
+{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.grid .grid1
+{
+    background: white;
+    border: 2px solid black;
+    grid-template-rows: 40% 60%;
+    
+}
+
+.grid .grid2
+{
+  display: grid;
+  grid-template-columns:50% 50%;   
+  grid-gap: 1em;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.grid .grid2 div
+{
+    background: white;
+    padding: 1em;   
+}
+
+.grid .grid2 div:hover 
+{
+    border: 1px solid black;
+}
+
+.grid1 a .animacion
+{
+    text-decoration: none;
+    color: black;
+}
+
+.animacion:hover
+{
+    border-bottom: 3px solid blue;
+    background: #E1F627;
+}
+
+.columna
+{
+    grid-template-rows: 30% 60%;
+    
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 30% 45% 15%;
+    grid-gap: 5em;
+}
+
+.grid div
+{
+    background: white;
+    padding: 1em;
+}
+
+.container .row #btn{
+    border: 1px solid black;
+    background: #5d84ce;
+    font-weight: bold;
+    color: black;
+}
+.container .row #btn:hover{
+    background: #E1F627;
+}
+
